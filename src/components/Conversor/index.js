@@ -41,7 +41,7 @@ const Conversor = (props) => {
       <TouchableOpacity style={styles.btn} onPress={converter}>
         <Text style={styles.btnText}>Converter</Text>
       </TouchableOpacity>
-      <Text style={styles.valorConvertido}>{valorCovertido}</Text>
+      <Text style={styles.valorConvertido}>{valorCovertido > 0 ? valorCovertido : ''}</Text>
     </View>
   );
 };
