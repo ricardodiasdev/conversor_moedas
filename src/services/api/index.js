@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL:
-    "https://free.currencyconverterapi.com/api/v5",
+    "https://economia.awesomeapi.com.br/",
 });
 
 export default api;
